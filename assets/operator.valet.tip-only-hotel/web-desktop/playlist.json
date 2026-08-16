@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.valet.tip-only-hotel",
+    "title": "Hotel-paid parking, guest-paid tip",
+    "description": "Check in a folio-paid guest, retrieve the car, and open the guest tip receipt path.",
+    "perspective": "operator",
+    "platform": "web-desktop",
+    "tags": [
+      "valet",
+      "hotel",
+      "tips"
+    ],
+    "audience": [
+      "hotel",
+      "valet-operator",
+      "hospitality-finance"
+    ],
+    "sales_claims": [
+      "Separate hotel parking charges from guest tips",
+      "Send a digital tip path after retrieval"
+    ],
+    "fixture_profile": "hotel-valet-tip-only",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-24f7b3c4",
+  "capture_date": "2026-08-15T19:45:34.066Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "valet-board",
+      "title": "Operator valet board",
+      "file": "frames/01-valet-board.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "checked-in",
+      "title": "Guest checked in and vehicle located",
+      "file": "frames/02-checked-in.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "guest-session",
+      "title": "Guest live valet session",
+      "description": "The tokenized link opens without an account.",
+      "file": "frames/03-guest-session.png",
+      "role": "guest"
+    },
+    {
+      "order": 4,
+      "id": "guest-requested",
+      "title": "Guest requests the vehicle",
+      "file": "frames/04-guest-requested.png",
+      "role": "guest"
+    },
+    {
+      "order": 5,
+      "id": "realtime-queue",
+      "title": "Request appears in the operator queue",
+      "description": "The already-open board receives the request through realtime invalidation.",
+      "file": "frames/05-realtime-queue.png",
+      "role": "primary"
+    },
+    {
+      "order": 6,
+      "id": "ready-for-handoff",
+      "title": "Vehicle ready for handoff",
+      "file": "frames/06-ready-for-handoff.png",
+      "role": "primary"
+    },
+    {
+      "order": 7,
+      "id": "guest-tip",
+      "title": "Guest tip options after hotel-paid parking",
+      "file": "frames/07-guest-tip.png",
+      "role": "guest"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 37,
+    "duration_in_range": true
+  }
+}

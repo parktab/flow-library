@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.valet.high-volume-runner",
+    "title": "Temporary event staffing",
+    "description": "Create a runner grant, accept it from a link, record a location, and complete retrieval.",
+    "perspective": "operator",
+    "platform": "ios",
+    "tags": [
+      "valet",
+      "runner",
+      "staffing",
+      "first-batch"
+    ],
+    "audience": [
+      "event-operator",
+      "valet-operator"
+    ],
+    "sales_claims": [
+      "Onboard temporary runners without full accounts",
+      "Limit runner access to assigned work"
+    ],
+    "fixture_profile": "runner-grant-two-role",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-3bb427d1",
+  "capture_date": "2026-08-16T01:16:16.295Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "title": "High volume valet runner artifact/takeScreenshot/01 runner grants",
+      "file": "High-volume valet runner artifact/takeScreenshot/01-runner-grants.png"
+    },
+    {
+      "order": 2,
+      "title": "High volume valet runner artifact/takeScreenshot/02 runner link",
+      "file": "High-volume valet runner artifact/takeScreenshot/02-runner-link.png"
+    },
+    {
+      "order": 3,
+      "title": "High volume valet runner artifact/takeScreenshot/03 runner accepted",
+      "file": "High-volume valet runner artifact/takeScreenshot/03-runner-accepted.png"
+    },
+    {
+      "order": 4,
+      "title": "High volume valet runner artifact/takeScreenshot/04 retrieval job",
+      "file": "High-volume valet runner artifact/takeScreenshot/04-retrieval-job.png"
+    },
+    {
+      "order": 5,
+      "title": "High volume valet runner artifact/takeScreenshot/05 assignment accepted",
+      "file": "High-volume valet runner artifact/takeScreenshot/05-assignment-accepted.png"
+    },
+    {
+      "order": 6,
+      "title": "High volume valet runner artifact/takeScreenshot/06 retrieval underway",
+      "file": "High-volume valet runner artifact/takeScreenshot/06-retrieval-underway.png"
+    }
+  ],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
+  "quality": null
+}

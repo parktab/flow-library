@@ -1,0 +1,1065 @@
+[
+  {
+    "flowId": "consumer.event-parking",
+    "platform": "web-mobile",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "consumer.event-parking",
+        "title": "Stadium and event checkout",
+        "description": "Open an event offer with fixed pricing and an exit deadline, pay, and view the event receipt.",
+        "perspective": "consumer",
+        "platform": "web-mobile",
+        "tags": [
+          "event",
+          "pricing",
+          "first-batch"
+        ],
+        "audience": [
+          "venue-operator",
+          "event-organizer",
+          "property-manager"
+        ],
+        "sales_claims": [
+          "Present event-specific pricing",
+          "Remove unnecessary duration selection"
+        ],
+        "fixture_profile": "guest-self-park-controlled-payment",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-93ece9f3",
+      "capture_date": "2026-08-15T23:05:28.501Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "location",
+          "title": "Location and current rate",
+          "file": "frames/01-location.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "event-offer",
+          "title": "Fixed event price and exit deadline",
+          "file": "frames/02-event-offer.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "event-vehicle",
+          "title": "Enter the event guest vehicle",
+          "file": "frames/03-event-vehicle.png",
+          "role": "primary"
+        },
+        {
+          "order": 4,
+          "id": "event-review",
+          "title": "Review the event price with no duration picker",
+          "file": "frames/04-event-review.png",
+          "role": "primary"
+        },
+        {
+          "order": 5,
+          "id": "event-payment",
+          "title": "Approve the fixed event total",
+          "file": "frames/05-event-payment.png",
+          "role": "primary"
+        },
+        {
+          "order": 6,
+          "id": "event-receipt",
+          "title": "Event parking receipt and exit deadline",
+          "file": "frames/06-event-receipt.png",
+          "role": "primary"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 5,
+        "duration_in_range": true
+      }
+    }
+  },
+  {
+    "flowId": "consumer.self-park.guest-checkout",
+    "platform": "web-mobile",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "consumer.self-park.guest-checkout",
+        "title": "Zero-download self-park",
+        "description": "Scan a location QR, choose duration, enter a plate, review price, pay, and confirm parking.",
+        "perspective": "consumer",
+        "platform": "web-mobile",
+        "tags": [
+          "self-park",
+          "payment",
+          "sales",
+          "first-batch"
+        ],
+        "audience": [
+          "parking-operator",
+          "property-manager",
+          "investor"
+        ],
+        "sales_claims": [
+          "Park without downloading an app",
+          "Complete checkout from a location QR"
+        ],
+        "fixture_profile": "guest-self-park-controlled-payment",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-93ece9f3",
+      "capture_date": "2026-08-15T23:05:28.501Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "location",
+          "title": "Location and current rate",
+          "file": "frames/01-location.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "choose-duration",
+          "title": "Choose parking duration",
+          "file": "frames/02-choose-duration.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "enter-plate",
+          "title": "Enter vehicle plate",
+          "file": "frames/03-enter-plate.png",
+          "role": "primary"
+        },
+        {
+          "order": 4,
+          "id": "plate-confirmed",
+          "title": "Confirm the vehicle plate",
+          "file": "frames/04-plate-confirmed.png",
+          "role": "primary"
+        },
+        {
+          "order": 5,
+          "id": "review-payment",
+          "title": "Review and pay",
+          "file": "frames/05-review-payment.png",
+          "role": "primary"
+        },
+        {
+          "order": 6,
+          "id": "payment-ready",
+          "title": "Approve terms and payment total",
+          "file": "frames/06-payment-ready.png",
+          "role": "primary"
+        },
+        {
+          "order": 7,
+          "id": "parking-confirmed",
+          "title": "Parking confirmed",
+          "file": "frames/07-parking-confirmed.png",
+          "role": "primary"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 7,
+        "duration_in_range": true
+      }
+    }
+  },
+  {
+    "flowId": "consumer.session.extend-and-leave",
+    "platform": "web-mobile",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "consumer.session.extend-and-leave",
+        "title": "Manage an active stay",
+        "description": "Review a countdown, receive an expiry reminder, extend remotely, and mark the stay complete.",
+        "perspective": "consumer",
+        "platform": "web-mobile",
+        "tags": [
+          "session",
+          "extension",
+          "first-batch"
+        ],
+        "audience": [
+          "parking-operator",
+          "property-manager"
+        ],
+        "sales_claims": [
+          "Extend a stay remotely",
+          "Keep parkers informed before expiry"
+        ],
+        "fixture_profile": "active-session-controlled-clock",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-93ece9f3",
+      "capture_date": "2026-08-15T23:09:48.661Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "live-countdown",
+          "title": "Live session countdown and ending-soon reminder",
+          "file": "frames/01-live-countdown.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "extension-options",
+          "title": "Choose how much time to add",
+          "file": "frames/02-extension-options.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "updated-end-preview",
+          "title": "Preview the updated end time",
+          "file": "frames/03-updated-end-preview.png",
+          "role": "primary"
+        },
+        {
+          "order": 4,
+          "id": "extension-confirmed",
+          "title": "Extension confirmed remotely",
+          "file": "frames/04-extension-confirmed.png",
+          "role": "primary"
+        },
+        {
+          "order": 5,
+          "id": "leaving",
+          "title": "Driver marks the session complete and leaves",
+          "file": "frames/05-leaving.png",
+          "role": "primary"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 4,
+        "duration_in_range": true
+      }
+    }
+  },
+  {
+    "flowId": "consumer.validation-and-sponsored-parking",
+    "platform": "web-mobile",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "consumer.validation-and-sponsored-parking",
+        "title": "Merchant-funded parking",
+        "description": "Apply a campaign benefit automatically, show itemized savings, pay the remainder, and view the receipt.",
+        "perspective": "consumer",
+        "platform": "web-mobile",
+        "tags": [
+          "validation",
+          "benefit",
+          "payment",
+          "first-batch"
+        ],
+        "audience": [
+          "merchant",
+          "parking-operator",
+          "property-manager"
+        ],
+        "sales_claims": [
+          "Apply parking benefits automatically",
+          "Show the parker an itemized discount"
+        ],
+        "fixture_profile": "guest-self-park-controlled-payment",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-93ece9f3",
+      "capture_date": "2026-08-15T23:05:28.501Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "merchant-qr",
+          "title": "Merchant campaign QR opens the sponsored offer",
+          "file": "frames/01-merchant-qr.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "choose-stay",
+          "title": "Choose the parking stay",
+          "file": "frames/02-choose-stay.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "sponsored-vehicle",
+          "title": "Identify the sponsored parker vehicle",
+          "file": "frames/03-sponsored-vehicle.png",
+          "role": "primary"
+        },
+        {
+          "order": 4,
+          "id": "benefit-applied",
+          "title": "Validation applies automatically with itemized savings",
+          "file": "frames/04-benefit-applied.png",
+          "role": "primary"
+        },
+        {
+          "order": 5,
+          "id": "remainder-due",
+          "title": "Guest pays only the remaining balance",
+          "file": "frames/05-remainder-due.png",
+          "role": "primary"
+        },
+        {
+          "order": 6,
+          "id": "sponsored-receipt",
+          "title": "Receipt preserves the funded benefit",
+          "file": "frames/06-sponsored-receipt.png",
+          "role": "primary"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 5,
+        "duration_in_range": true
+      }
+    }
+  },
+  {
+    "flowId": "operator.attendant.plate-to-payment",
+    "platform": "ios",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.attendant.plate-to-payment",
+        "title": "Attendant plate-to-payment",
+        "description": "Scan and confirm a plate, choose duration, quote on the server, accept Tap to Pay, and start the session.",
+        "perspective": "operator",
+        "platform": "ios",
+        "tags": [
+          "attendant",
+          "plate-scan",
+          "payment",
+          "first-batch"
+        ],
+        "audience": [
+          "parking-operator",
+          "attendant-manager"
+        ],
+        "sales_claims": [
+          "Start paid sessions from a plate scan",
+          "Use server-calculated pricing"
+        ],
+        "fixture_profile": "operator-demo-ocr-and-payment",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-3bb427d1",
+      "capture_date": "2026-08-16T01:22:55.005Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "title": "Attendant plate to payment artifact/takeScreenshot/01 session worklist",
+          "file": "Attendant plate-to-payment artifact/takeScreenshot/01-session-worklist.png"
+        },
+        {
+          "order": 2,
+          "title": "Attendant plate to payment artifact/takeScreenshot/02 vehicle and duration",
+          "file": "Attendant plate-to-payment artifact/takeScreenshot/02-vehicle-and-duration.png"
+        },
+        {
+          "order": 3,
+          "title": "Attendant plate to payment artifact/takeScreenshot/03 server quote",
+          "file": "Attendant plate-to-payment artifact/takeScreenshot/03-server-quote.png"
+        },
+        {
+          "order": 4,
+          "title": "Attendant plate to payment artifact/takeScreenshot/04 tap to pay",
+          "file": "Attendant plate-to-payment artifact/takeScreenshot/04-tap-to-pay.png"
+        },
+        {
+          "order": 5,
+          "title": "Attendant plate to payment artifact/takeScreenshot/05 paid session",
+          "file": "Attendant plate-to-payment artifact/takeScreenshot/05-paid-session.png"
+        }
+      ],
+      "videos": [
+        {
+          "role": "primary",
+          "file": "flow.mp4",
+          "offset_seconds": 0
+        }
+      ],
+      "quality": null
+    }
+  },
+  {
+    "flowId": "operator.enforcement.plate-verdict",
+    "platform": "ios",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.enforcement.plate-verdict",
+        "title": "Plate-to-authorization verdict",
+        "description": "Scan a plate, review OCR confidence, classify paid/overstay/unknown, and inspect history.",
+        "perspective": "operator",
+        "platform": "ios",
+        "tags": [
+          "enforcement",
+          "plate-scan",
+          "first-batch"
+        ],
+        "audience": [
+          "enforcement-team",
+          "parking-operator",
+          "municipality"
+        ],
+        "sales_claims": [
+          "Turn a plate scan into an authorization verdict",
+          "Expose session and plate history"
+        ],
+        "fixture_profile": "operator-demo-ocr-verdicts",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-3bb427d1",
+      "capture_date": "2026-08-16T01:30:34.291Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "title": "Enforcement plate verdict artifact/takeScreenshot/01 enforcement worklist",
+          "file": "Enforcement plate verdict artifact/takeScreenshot/01-enforcement-worklist.png"
+        },
+        {
+          "order": 2,
+          "title": "Enforcement plate verdict artifact/takeScreenshot/02 scanner confidence",
+          "file": "Enforcement plate verdict artifact/takeScreenshot/02-scanner-confidence.png"
+        },
+        {
+          "order": 3,
+          "title": "Enforcement plate verdict artifact/takeScreenshot/03 overstay verdict",
+          "file": "Enforcement plate verdict artifact/takeScreenshot/03-overstay-verdict.png"
+        },
+        {
+          "order": 4,
+          "title": "Enforcement plate verdict artifact/takeScreenshot/04 session details",
+          "file": "Enforcement plate verdict artifact/takeScreenshot/04-session-details.png"
+        },
+        {
+          "order": 5,
+          "title": "Enforcement plate verdict artifact/takeScreenshot/05 plate history",
+          "file": "Enforcement plate verdict artifact/takeScreenshot/05-plate-history.png"
+        }
+      ],
+      "videos": [
+        {
+          "role": "primary",
+          "file": "flow.mp4",
+          "offset_seconds": 0
+        }
+      ],
+      "quality": null
+    }
+  },
+  {
+    "flowId": "operator.pricing.guided-setup",
+    "platform": "web-desktop",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.pricing.guided-setup",
+        "title": "Turn a parking sign into a rate",
+        "description": "Choose a pricing archetype, enter tiers and caps, preview signage, test boundary stays, and publish.",
+        "perspective": "operator",
+        "platform": "web-desktop",
+        "tags": [
+          "pricing",
+          "configuration",
+          "first-batch"
+        ],
+        "audience": [
+          "parking-operator",
+          "revenue-manager",
+          "property-manager"
+        ],
+        "sales_claims": [
+          "Configure rates with guided inputs",
+          "Test boundary stays before publishing"
+        ],
+        "fixture_profile": "guest-self-park-controlled-payment",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-93ece9f3",
+      "capture_date": "2026-08-15T23:05:28.501Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "pricing-archetypes",
+          "title": "Choose a pricing archetype",
+          "file": "frames/01-pricing-archetypes.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "scheduled-model",
+          "title": "Select scheduled pricing for changing demand",
+          "file": "frames/02-scheduled-model.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "tiers-caps-grace",
+          "title": "Enter prices, cap, schedule, and grace period",
+          "file": "frames/03-tiers-caps-grace.png",
+          "role": "primary"
+        },
+        {
+          "order": 4,
+          "id": "live-review",
+          "title": "Review the live pricing brief before publishing",
+          "file": "frames/04-live-review.png",
+          "role": "primary"
+        },
+        {
+          "order": 5,
+          "id": "published",
+          "title": "Publish the reviewed pricing setup",
+          "file": "frames/05-published.png",
+          "role": "primary"
+        },
+        {
+          "order": 6,
+          "id": "created-plans",
+          "title": "Inspect the active plans created from the guide",
+          "file": "frames/06-created-plans.png",
+          "role": "primary"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 6,
+        "duration_in_range": true
+      }
+    }
+  },
+  {
+    "flowId": "operator.tap-to-pay.onboarding",
+    "platform": "ios",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.tap-to-pay.onboarding",
+        "title": "Tap to Pay enablement",
+        "description": "Choose a location, review eligibility and terms, enable Tap to Pay, complete Apple education, and verify readiness.",
+        "perspective": "operator",
+        "platform": "ios",
+        "tags": [
+          "payment",
+          "onboarding",
+          "compliance",
+          "apple-tap-to-pay",
+          "first-batch"
+        ],
+        "audience": [
+          "parking-operator",
+          "apple-review",
+          "compliance-reviewer"
+        ],
+        "sales_claims": [
+          "Accept contactless payment without an external reader",
+          "Guide operators through Tap to Pay setup"
+        ],
+        "fixture_profile": "tap-to-pay-controlled-sdk",
+        "profile": "sales",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-3bb427d1",
+      "capture_date": "2026-08-16T01:29:56.829Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/01 account device settings",
+          "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/01-account-device-settings.png"
+        },
+        {
+          "order": 2,
+          "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/02 card reader options",
+          "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/02-card-reader-options.png"
+        },
+        {
+          "order": 3,
+          "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/03 tap to pay overview",
+          "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/03-tap-to-pay-overview.png"
+        },
+        {
+          "order": 4,
+          "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/04 tap to pay enable",
+          "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/04-tap-to-pay-enable.png"
+        },
+        {
+          "order": 5,
+          "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/05 tap to pay ready",
+          "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/05-tap-to-pay-ready.png"
+        },
+        {
+          "order": 6,
+          "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/06 apple education entry point",
+          "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/06-apple-education-entry-point.png"
+        }
+      ],
+      "videos": [
+        {
+          "role": "primary",
+          "file": "flow.mp4",
+          "offset_seconds": 0
+        }
+      ],
+      "quality": null
+    }
+  },
+  {
+    "flowId": "operator.valet.fast-check-in",
+    "platform": "ios",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.valet.fast-check-in",
+        "title": "Twenty-second valet arrival",
+        "description": "Recognize a returning vehicle, record plate and key tag, set expected pickup, and notify the guest.",
+        "perspective": "operator",
+        "platform": "ios",
+        "tags": [
+          "valet",
+          "check-in",
+          "first-batch"
+        ],
+        "audience": [
+          "hotel",
+          "valet-operator",
+          "event-operator"
+        ],
+        "sales_claims": [
+          "Streamline repeat-guest check-in",
+          "Send a digital claim link"
+        ],
+        "fixture_profile": "operator-demo-returning-valet",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-3bb427d1",
+      "capture_date": "2026-08-16T01:31:10.129Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "title": "Fast valet check in artifact/takeScreenshot/01 valet queue",
+          "file": "Fast valet check-in artifact/takeScreenshot/01-valet-queue.png"
+        },
+        {
+          "order": 2,
+          "title": "Fast valet check in artifact/takeScreenshot/02 arrival",
+          "file": "Fast valet check-in artifact/takeScreenshot/02-arrival.png"
+        },
+        {
+          "order": 3,
+          "title": "Fast valet check in artifact/takeScreenshot/03 guest and pickup",
+          "file": "Fast valet check-in artifact/takeScreenshot/03-guest-and-pickup.png"
+        },
+        {
+          "order": 4,
+          "title": "Fast valet check in artifact/takeScreenshot/04 vehicle",
+          "file": "Fast valet check-in artifact/takeScreenshot/04-vehicle.png"
+        },
+        {
+          "order": 5,
+          "title": "Fast valet check in artifact/takeScreenshot/05 checked in",
+          "file": "Fast valet check-in artifact/takeScreenshot/05-checked-in.png"
+        }
+      ],
+      "videos": [
+        {
+          "role": "primary",
+          "file": "flow.mp4",
+          "offset_seconds": 0
+        }
+      ],
+      "quality": null
+    }
+  },
+  {
+    "flowId": "operator.valet.high-volume-runner",
+    "platform": "ios",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.valet.high-volume-runner",
+        "title": "Temporary event staffing",
+        "description": "Create a runner grant, accept it from a link, record a location, and complete retrieval.",
+        "perspective": "operator",
+        "platform": "ios",
+        "tags": [
+          "valet",
+          "runner",
+          "staffing",
+          "first-batch"
+        ],
+        "audience": [
+          "event-operator",
+          "valet-operator"
+        ],
+        "sales_claims": [
+          "Onboard temporary runners without full accounts",
+          "Limit runner access to assigned work"
+        ],
+        "fixture_profile": "runner-grant-two-role",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-3bb427d1",
+      "capture_date": "2026-08-16T01:16:16.295Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "title": "High volume valet runner artifact/takeScreenshot/01 runner grants",
+          "file": "High-volume valet runner artifact/takeScreenshot/01-runner-grants.png"
+        },
+        {
+          "order": 2,
+          "title": "High volume valet runner artifact/takeScreenshot/02 runner link",
+          "file": "High-volume valet runner artifact/takeScreenshot/02-runner-link.png"
+        },
+        {
+          "order": 3,
+          "title": "High volume valet runner artifact/takeScreenshot/03 runner accepted",
+          "file": "High-volume valet runner artifact/takeScreenshot/03-runner-accepted.png"
+        },
+        {
+          "order": 4,
+          "title": "High volume valet runner artifact/takeScreenshot/04 retrieval job",
+          "file": "High-volume valet runner artifact/takeScreenshot/04-retrieval-job.png"
+        },
+        {
+          "order": 5,
+          "title": "High volume valet runner artifact/takeScreenshot/05 assignment accepted",
+          "file": "High-volume valet runner artifact/takeScreenshot/05-assignment-accepted.png"
+        },
+        {
+          "order": 6,
+          "title": "High volume valet runner artifact/takeScreenshot/06 retrieval underway",
+          "file": "High-volume valet runner artifact/takeScreenshot/06-retrieval-underway.png"
+        }
+      ],
+      "videos": [
+        {
+          "role": "primary",
+          "file": "flow.mp4",
+          "offset_seconds": 0
+        }
+      ],
+      "quality": null
+    }
+  },
+  {
+    "flowId": "operator.valet.paper-ticket",
+    "platform": "web-desktop",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.valet.paper-ticket",
+        "title": "Anonymous, phoneless valet",
+        "description": "Issue a printable paper and QR claim ticket without collecting a phone number.",
+        "perspective": "operator",
+        "platform": "web-desktop",
+        "tags": [
+          "valet",
+          "paper-ticket",
+          "privacy",
+          "first-batch"
+        ],
+        "audience": [
+          "hotel",
+          "valet-operator",
+          "privacy-reviewer"
+        ],
+        "sales_claims": [
+          "Serve guests without a phone",
+          "Issue a printable QR claim ticket"
+        ],
+        "fixture_profile": "guest-self-park-controlled-payment",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-93ece9f3",
+      "capture_date": "2026-08-15T23:05:28.501Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "valet-board",
+          "title": "Valet board before arrival",
+          "file": "frames/01-valet-board.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "paper-mode",
+          "title": "Choose paper or QR ticket",
+          "file": "frames/02-paper-mode.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "ticket-details",
+          "title": "Record anonymous guest and vehicle details",
+          "file": "frames/03-ticket-details.png",
+          "role": "primary"
+        },
+        {
+          "order": 4,
+          "id": "ticket-ready",
+          "title": "Printable claim ticket is ready",
+          "file": "frames/04-ticket-ready.png",
+          "role": "primary"
+        },
+        {
+          "order": 5,
+          "id": "printed-ticket",
+          "title": "Print-ready ticket with claim QR",
+          "file": "frames/05-printed-ticket.png",
+          "role": "printed-ticket"
+        },
+        {
+          "order": 6,
+          "id": "claim-link",
+          "title": "Guest opens the anonymous claim QR",
+          "file": "frames/06-claim-link.png",
+          "role": "guest"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 5,
+        "duration_in_range": true
+      }
+    }
+  },
+  {
+    "flowId": "operator.valet.tip-only-hotel",
+    "platform": "web-desktop",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "operator.valet.tip-only-hotel",
+        "title": "Hotel-paid parking, guest-paid tip",
+        "description": "Check in a folio-paid guest, retrieve the car, and open the guest tip receipt path.",
+        "perspective": "operator",
+        "platform": "web-desktop",
+        "tags": [
+          "valet",
+          "hotel",
+          "tips"
+        ],
+        "audience": [
+          "hotel",
+          "valet-operator",
+          "hospitality-finance"
+        ],
+        "sales_claims": [
+          "Separate hotel parking charges from guest tips",
+          "Send a digital tip path after retrieval"
+        ],
+        "fixture_profile": "hotel-valet-tip-only",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-24f7b3c4",
+      "capture_date": "2026-08-15T19:45:34.066Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "valet-board",
+          "title": "Operator valet board",
+          "file": "frames/01-valet-board.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "checked-in",
+          "title": "Guest checked in and vehicle located",
+          "file": "frames/02-checked-in.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "guest-session",
+          "title": "Guest live valet session",
+          "description": "The tokenized link opens without an account.",
+          "file": "frames/03-guest-session.png",
+          "role": "guest"
+        },
+        {
+          "order": 4,
+          "id": "guest-requested",
+          "title": "Guest requests the vehicle",
+          "file": "frames/04-guest-requested.png",
+          "role": "guest"
+        },
+        {
+          "order": 5,
+          "id": "realtime-queue",
+          "title": "Request appears in the operator queue",
+          "description": "The already-open board receives the request through realtime invalidation.",
+          "file": "frames/05-realtime-queue.png",
+          "role": "primary"
+        },
+        {
+          "order": 6,
+          "id": "ready-for-handoff",
+          "title": "Vehicle ready for handoff",
+          "file": "frames/06-ready-for-handoff.png",
+          "role": "primary"
+        },
+        {
+          "order": 7,
+          "id": "guest-tip",
+          "title": "Guest tip options after hotel-paid parking",
+          "file": "frames/07-guest-tip.png",
+          "role": "guest"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 37,
+        "duration_in_range": true
+      }
+    }
+  },
+  {
+    "flowId": "valet.guest-request-lifecycle",
+    "platform": "web-desktop",
+    "playlist": {
+      "schemaVersion": 1,
+      "flow": {
+        "id": "valet.guest-request-lifecycle",
+        "title": "Request-to-handoff lifecycle",
+        "description": "A guest requests their car while the operator queue updates through acknowledge, retrieve, ready, and returned states.",
+        "perspective": "consumer",
+        "platform": "web-desktop",
+        "tags": [
+          "valet",
+          "realtime",
+          "guest",
+          "first-batch"
+        ],
+        "audience": [
+          "hotel",
+          "valet-operator",
+          "property-manager"
+        ],
+        "sales_claims": [
+          "Update the valet queue in realtime",
+          "Keep the guest informed through handoff"
+        ],
+        "fixture_profile": "guest-self-park-controlled-payment",
+        "profile": "default",
+        "allow_mocks": true,
+        "requirements": []
+      },
+      "app_build": "source-93ece9f3",
+      "capture_date": "2026-08-15T23:05:28.501Z",
+      "locale": "en-US",
+      "frames": [
+        {
+          "order": 1,
+          "id": "valet-board",
+          "title": "Operator valet board",
+          "file": "frames/01-valet-board.png",
+          "role": "primary"
+        },
+        {
+          "order": 2,
+          "id": "checked-in",
+          "title": "Guest checked in and vehicle located",
+          "file": "frames/02-checked-in.png",
+          "role": "primary"
+        },
+        {
+          "order": 3,
+          "id": "guest-session",
+          "title": "Guest live valet session",
+          "description": "The tokenized link opens without an account.",
+          "file": "frames/03-guest-session.png",
+          "role": "guest"
+        },
+        {
+          "order": 4,
+          "id": "guest-requested",
+          "title": "Guest requests the vehicle",
+          "file": "frames/04-guest-requested.png",
+          "role": "guest"
+        },
+        {
+          "order": 5,
+          "id": "realtime-queue",
+          "title": "Request appears in the operator queue",
+          "description": "The already-open board receives the request through realtime invalidation.",
+          "file": "frames/05-realtime-queue.png",
+          "role": "primary"
+        },
+        {
+          "order": 6,
+          "id": "ready-for-handoff",
+          "title": "Vehicle ready for handoff",
+          "file": "frames/06-ready-for-handoff.png",
+          "role": "primary"
+        },
+        {
+          "order": 7,
+          "id": "handoff-complete",
+          "title": "Retrieval completed",
+          "file": "frames/07-handoff-complete.png",
+          "role": "primary"
+        }
+      ],
+      "videos": [],
+      "quality": {
+        "frame_count_in_range": true,
+        "duration_seconds": 36,
+        "duration_in_range": true
+      }
+    }
+  }
+]

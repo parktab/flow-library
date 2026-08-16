@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "consumer.event-parking",
+    "title": "Stadium and event checkout",
+    "description": "Open an event offer with fixed pricing and an exit deadline, pay, and view the event receipt.",
+    "perspective": "consumer",
+    "platform": "web-mobile",
+    "tags": [
+      "event",
+      "pricing",
+      "first-batch"
+    ],
+    "audience": [
+      "venue-operator",
+      "event-organizer",
+      "property-manager"
+    ],
+    "sales_claims": [
+      "Present event-specific pricing",
+      "Remove unnecessary duration selection"
+    ],
+    "fixture_profile": "guest-self-park-controlled-payment",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-93ece9f3",
+  "capture_date": "2026-08-15T23:05:28.501Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "location",
+      "title": "Location and current rate",
+      "file": "frames/01-location.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "event-offer",
+      "title": "Fixed event price and exit deadline",
+      "file": "frames/02-event-offer.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "event-vehicle",
+      "title": "Enter the event guest vehicle",
+      "file": "frames/03-event-vehicle.png",
+      "role": "primary"
+    },
+    {
+      "order": 4,
+      "id": "event-review",
+      "title": "Review the event price with no duration picker",
+      "file": "frames/04-event-review.png",
+      "role": "primary"
+    },
+    {
+      "order": 5,
+      "id": "event-payment",
+      "title": "Approve the fixed event total",
+      "file": "frames/05-event-payment.png",
+      "role": "primary"
+    },
+    {
+      "order": 6,
+      "id": "event-receipt",
+      "title": "Event parking receipt and exit deadline",
+      "file": "frames/06-event-receipt.png",
+      "role": "primary"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 5,
+    "duration_in_range": true
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "consumer.validation-and-sponsored-parking",
+    "title": "Merchant-funded parking",
+    "description": "Apply a campaign benefit automatically, show itemized savings, pay the remainder, and view the receipt.",
+    "perspective": "consumer",
+    "platform": "web-mobile",
+    "tags": [
+      "validation",
+      "benefit",
+      "payment",
+      "first-batch"
+    ],
+    "audience": [
+      "merchant",
+      "parking-operator",
+      "property-manager"
+    ],
+    "sales_claims": [
+      "Apply parking benefits automatically",
+      "Show the parker an itemized discount"
+    ],
+    "fixture_profile": "guest-self-park-controlled-payment",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-93ece9f3",
+  "capture_date": "2026-08-15T23:05:28.501Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "merchant-qr",
+      "title": "Merchant campaign QR opens the sponsored offer",
+      "file": "frames/01-merchant-qr.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "choose-stay",
+      "title": "Choose the parking stay",
+      "file": "frames/02-choose-stay.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "sponsored-vehicle",
+      "title": "Identify the sponsored parker vehicle",
+      "file": "frames/03-sponsored-vehicle.png",
+      "role": "primary"
+    },
+    {
+      "order": 4,
+      "id": "benefit-applied",
+      "title": "Validation applies automatically with itemized savings",
+      "file": "frames/04-benefit-applied.png",
+      "role": "primary"
+    },
+    {
+      "order": 5,
+      "id": "remainder-due",
+      "title": "Guest pays only the remaining balance",
+      "file": "frames/05-remainder-due.png",
+      "role": "primary"
+    },
+    {
+      "order": 6,
+      "id": "sponsored-receipt",
+      "title": "Receipt preserves the funded benefit",
+      "file": "frames/06-sponsored-receipt.png",
+      "role": "primary"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 5,
+    "duration_in_range": true
+  }
+}

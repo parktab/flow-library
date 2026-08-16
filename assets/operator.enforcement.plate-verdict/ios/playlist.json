@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.enforcement.plate-verdict",
+    "title": "Plate-to-authorization verdict",
+    "description": "Scan a plate, review OCR confidence, classify paid/overstay/unknown, and inspect history.",
+    "perspective": "operator",
+    "platform": "ios",
+    "tags": [
+      "enforcement",
+      "plate-scan",
+      "first-batch"
+    ],
+    "audience": [
+      "enforcement-team",
+      "parking-operator",
+      "municipality"
+    ],
+    "sales_claims": [
+      "Turn a plate scan into an authorization verdict",
+      "Expose session and plate history"
+    ],
+    "fixture_profile": "operator-demo-ocr-verdicts",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-3bb427d1",
+  "capture_date": "2026-08-16T01:30:34.291Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "title": "Enforcement plate verdict artifact/takeScreenshot/01 enforcement worklist",
+      "file": "Enforcement plate verdict artifact/takeScreenshot/01-enforcement-worklist.png"
+    },
+    {
+      "order": 2,
+      "title": "Enforcement plate verdict artifact/takeScreenshot/02 scanner confidence",
+      "file": "Enforcement plate verdict artifact/takeScreenshot/02-scanner-confidence.png"
+    },
+    {
+      "order": 3,
+      "title": "Enforcement plate verdict artifact/takeScreenshot/03 overstay verdict",
+      "file": "Enforcement plate verdict artifact/takeScreenshot/03-overstay-verdict.png"
+    },
+    {
+      "order": 4,
+      "title": "Enforcement plate verdict artifact/takeScreenshot/04 session details",
+      "file": "Enforcement plate verdict artifact/takeScreenshot/04-session-details.png"
+    },
+    {
+      "order": 5,
+      "title": "Enforcement plate verdict artifact/takeScreenshot/05 plate history",
+      "file": "Enforcement plate verdict artifact/takeScreenshot/05-plate-history.png"
+    }
+  ],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
+  "quality": null
+}

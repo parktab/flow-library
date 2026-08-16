@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "valet.guest-request-lifecycle",
+    "title": "Request-to-handoff lifecycle",
+    "description": "A guest requests their car while the operator queue updates through acknowledge, retrieve, ready, and returned states.",
+    "perspective": "consumer",
+    "platform": "web-desktop",
+    "tags": [
+      "valet",
+      "realtime",
+      "guest",
+      "first-batch"
+    ],
+    "audience": [
+      "hotel",
+      "valet-operator",
+      "property-manager"
+    ],
+    "sales_claims": [
+      "Update the valet queue in realtime",
+      "Keep the guest informed through handoff"
+    ],
+    "fixture_profile": "guest-self-park-controlled-payment",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-93ece9f3",
+  "capture_date": "2026-08-15T23:05:28.501Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "valet-board",
+      "title": "Operator valet board",
+      "file": "frames/01-valet-board.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "checked-in",
+      "title": "Guest checked in and vehicle located",
+      "file": "frames/02-checked-in.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "guest-session",
+      "title": "Guest live valet session",
+      "description": "The tokenized link opens without an account.",
+      "file": "frames/03-guest-session.png",
+      "role": "guest"
+    },
+    {
+      "order": 4,
+      "id": "guest-requested",
+      "title": "Guest requests the vehicle",
+      "file": "frames/04-guest-requested.png",
+      "role": "guest"
+    },
+    {
+      "order": 5,
+      "id": "realtime-queue",
+      "title": "Request appears in the operator queue",
+      "description": "The already-open board receives the request through realtime invalidation.",
+      "file": "frames/05-realtime-queue.png",
+      "role": "primary"
+    },
+    {
+      "order": 6,
+      "id": "ready-for-handoff",
+      "title": "Vehicle ready for handoff",
+      "file": "frames/06-ready-for-handoff.png",
+      "role": "primary"
+    },
+    {
+      "order": 7,
+      "id": "handoff-complete",
+      "title": "Retrieval completed",
+      "file": "frames/07-handoff-complete.png",
+      "role": "primary"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 36,
+    "duration_in_range": true
+  }
+}

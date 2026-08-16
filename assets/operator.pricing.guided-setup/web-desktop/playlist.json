@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.pricing.guided-setup",
+    "title": "Turn a parking sign into a rate",
+    "description": "Choose a pricing archetype, enter tiers and caps, preview signage, test boundary stays, and publish.",
+    "perspective": "operator",
+    "platform": "web-desktop",
+    "tags": [
+      "pricing",
+      "configuration",
+      "first-batch"
+    ],
+    "audience": [
+      "parking-operator",
+      "revenue-manager",
+      "property-manager"
+    ],
+    "sales_claims": [
+      "Configure rates with guided inputs",
+      "Test boundary stays before publishing"
+    ],
+    "fixture_profile": "guest-self-park-controlled-payment",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-93ece9f3",
+  "capture_date": "2026-08-15T23:05:28.501Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "pricing-archetypes",
+      "title": "Choose a pricing archetype",
+      "file": "frames/01-pricing-archetypes.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "scheduled-model",
+      "title": "Select scheduled pricing for changing demand",
+      "file": "frames/02-scheduled-model.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "tiers-caps-grace",
+      "title": "Enter prices, cap, schedule, and grace period",
+      "file": "frames/03-tiers-caps-grace.png",
+      "role": "primary"
+    },
+    {
+      "order": 4,
+      "id": "live-review",
+      "title": "Review the live pricing brief before publishing",
+      "file": "frames/04-live-review.png",
+      "role": "primary"
+    },
+    {
+      "order": 5,
+      "id": "published",
+      "title": "Publish the reviewed pricing setup",
+      "file": "frames/05-published.png",
+      "role": "primary"
+    },
+    {
+      "order": 6,
+      "id": "created-plans",
+      "title": "Inspect the active plans created from the guide",
+      "file": "frames/06-created-plans.png",
+      "role": "primary"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 6,
+    "duration_in_range": true
+  }
+}

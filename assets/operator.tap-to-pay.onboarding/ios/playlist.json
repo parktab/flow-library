@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.tap-to-pay.onboarding",
+    "title": "Tap to Pay enablement",
+    "description": "Choose a location, review eligibility and terms, enable Tap to Pay, complete Apple education, and verify readiness.",
+    "perspective": "operator",
+    "platform": "ios",
+    "tags": [
+      "payment",
+      "onboarding",
+      "compliance",
+      "apple-tap-to-pay",
+      "first-batch"
+    ],
+    "audience": [
+      "parking-operator",
+      "apple-review",
+      "compliance-reviewer"
+    ],
+    "sales_claims": [
+      "Accept contactless payment without an external reader",
+      "Guide operators through Tap to Pay setup"
+    ],
+    "fixture_profile": "tap-to-pay-controlled-sdk",
+    "profile": "sales",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-3bb427d1",
+  "capture_date": "2026-08-16T01:29:56.829Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/01 account device settings",
+      "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/01-account-device-settings.png"
+    },
+    {
+      "order": 2,
+      "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/02 card reader options",
+      "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/02-card-reader-options.png"
+    },
+    {
+      "order": 3,
+      "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/03 tap to pay overview",
+      "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/03-tap-to-pay-overview.png"
+    },
+    {
+      "order": 4,
+      "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/04 tap to pay enable",
+      "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/04-tap-to-pay-enable.png"
+    },
+    {
+      "order": 5,
+      "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/05 tap to pay ready",
+      "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/05-tap-to-pay-ready.png"
+    },
+    {
+      "order": 6,
+      "title": "Operator Tap to Pay onboarding artifact/takeScreenshot/06 apple education entry point",
+      "file": "Operator Tap to Pay onboarding artifact/takeScreenshot/06-apple-education-entry-point.png"
+    }
+  ],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
+  "quality": null
+}

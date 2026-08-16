@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.attendant.plate-to-payment",
+    "title": "Attendant plate-to-payment",
+    "description": "Scan and confirm a plate, choose duration, quote on the server, accept Tap to Pay, and start the session.",
+    "perspective": "operator",
+    "platform": "ios",
+    "tags": [
+      "attendant",
+      "plate-scan",
+      "payment",
+      "first-batch"
+    ],
+    "audience": [
+      "parking-operator",
+      "attendant-manager"
+    ],
+    "sales_claims": [
+      "Start paid sessions from a plate scan",
+      "Use server-calculated pricing"
+    ],
+    "fixture_profile": "operator-demo-ocr-and-payment",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-3bb427d1",
+  "capture_date": "2026-08-16T01:22:55.005Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "title": "Attendant plate to payment artifact/takeScreenshot/01 session worklist",
+      "file": "Attendant plate-to-payment artifact/takeScreenshot/01-session-worklist.png"
+    },
+    {
+      "order": 2,
+      "title": "Attendant plate to payment artifact/takeScreenshot/02 vehicle and duration",
+      "file": "Attendant plate-to-payment artifact/takeScreenshot/02-vehicle-and-duration.png"
+    },
+    {
+      "order": 3,
+      "title": "Attendant plate to payment artifact/takeScreenshot/03 server quote",
+      "file": "Attendant plate-to-payment artifact/takeScreenshot/03-server-quote.png"
+    },
+    {
+      "order": 4,
+      "title": "Attendant plate to payment artifact/takeScreenshot/04 tap to pay",
+      "file": "Attendant plate-to-payment artifact/takeScreenshot/04-tap-to-pay.png"
+    },
+    {
+      "order": 5,
+      "title": "Attendant plate to payment artifact/takeScreenshot/05 paid session",
+      "file": "Attendant plate-to-payment artifact/takeScreenshot/05-paid-session.png"
+    }
+  ],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
+  "quality": null
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.valet.fast-check-in",
+    "title": "Twenty-second valet arrival",
+    "description": "Recognize a returning vehicle, record plate and key tag, set expected pickup, and notify the guest.",
+    "perspective": "operator",
+    "platform": "ios",
+    "tags": [
+      "valet",
+      "check-in",
+      "first-batch"
+    ],
+    "audience": [
+      "hotel",
+      "valet-operator",
+      "event-operator"
+    ],
+    "sales_claims": [
+      "Streamline repeat-guest check-in",
+      "Send a digital claim link"
+    ],
+    "fixture_profile": "operator-demo-returning-valet",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-3bb427d1",
+  "capture_date": "2026-08-16T01:31:10.129Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "title": "Fast valet check in artifact/takeScreenshot/01 valet queue",
+      "file": "Fast valet check-in artifact/takeScreenshot/01-valet-queue.png"
+    },
+    {
+      "order": 2,
+      "title": "Fast valet check in artifact/takeScreenshot/02 arrival",
+      "file": "Fast valet check-in artifact/takeScreenshot/02-arrival.png"
+    },
+    {
+      "order": 3,
+      "title": "Fast valet check in artifact/takeScreenshot/03 guest and pickup",
+      "file": "Fast valet check-in artifact/takeScreenshot/03-guest-and-pickup.png"
+    },
+    {
+      "order": 4,
+      "title": "Fast valet check in artifact/takeScreenshot/04 vehicle",
+      "file": "Fast valet check-in artifact/takeScreenshot/04-vehicle.png"
+    },
+    {
+      "order": 5,
+      "title": "Fast valet check in artifact/takeScreenshot/05 checked in",
+      "file": "Fast valet check-in artifact/takeScreenshot/05-checked-in.png"
+    }
+  ],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
+  "quality": null
+}

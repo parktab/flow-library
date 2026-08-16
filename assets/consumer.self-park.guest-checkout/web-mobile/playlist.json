@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "consumer.self-park.guest-checkout",
+    "title": "Zero-download self-park",
+    "description": "Scan a location QR, choose duration, enter a plate, review price, pay, and confirm parking.",
+    "perspective": "consumer",
+    "platform": "web-mobile",
+    "tags": [
+      "self-park",
+      "payment",
+      "sales",
+      "first-batch"
+    ],
+    "audience": [
+      "parking-operator",
+      "property-manager",
+      "investor"
+    ],
+    "sales_claims": [
+      "Park without downloading an app",
+      "Complete checkout from a location QR"
+    ],
+    "fixture_profile": "guest-self-park-controlled-payment",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-93ece9f3",
+  "capture_date": "2026-08-15T23:05:28.501Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "location",
+      "title": "Location and current rate",
+      "file": "frames/01-location.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "choose-duration",
+      "title": "Choose parking duration",
+      "file": "frames/02-choose-duration.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "enter-plate",
+      "title": "Enter vehicle plate",
+      "file": "frames/03-enter-plate.png",
+      "role": "primary"
+    },
+    {
+      "order": 4,
+      "id": "plate-confirmed",
+      "title": "Confirm the vehicle plate",
+      "file": "frames/04-plate-confirmed.png",
+      "role": "primary"
+    },
+    {
+      "order": 5,
+      "id": "review-payment",
+      "title": "Review and pay",
+      "file": "frames/05-review-payment.png",
+      "role": "primary"
+    },
+    {
+      "order": 6,
+      "id": "payment-ready",
+      "title": "Approve terms and payment total",
+      "file": "frames/06-payment-ready.png",
+      "role": "primary"
+    },
+    {
+      "order": 7,
+      "id": "parking-confirmed",
+      "title": "Parking confirmed",
+      "file": "frames/07-parking-confirmed.png",
+      "role": "primary"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 7,
+    "duration_in_range": true
+  }
+}

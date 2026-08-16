@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "consumer.session.extend-and-leave",
+    "title": "Manage an active stay",
+    "description": "Review a countdown, receive an expiry reminder, extend remotely, and mark the stay complete.",
+    "perspective": "consumer",
+    "platform": "web-mobile",
+    "tags": [
+      "session",
+      "extension",
+      "first-batch"
+    ],
+    "audience": [
+      "parking-operator",
+      "property-manager"
+    ],
+    "sales_claims": [
+      "Extend a stay remotely",
+      "Keep parkers informed before expiry"
+    ],
+    "fixture_profile": "active-session-controlled-clock",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-93ece9f3",
+  "capture_date": "2026-08-15T23:09:48.661Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "live-countdown",
+      "title": "Live session countdown and ending-soon reminder",
+      "file": "frames/01-live-countdown.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "extension-options",
+      "title": "Choose how much time to add",
+      "file": "frames/02-extension-options.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "updated-end-preview",
+      "title": "Preview the updated end time",
+      "file": "frames/03-updated-end-preview.png",
+      "role": "primary"
+    },
+    {
+      "order": 4,
+      "id": "extension-confirmed",
+      "title": "Extension confirmed remotely",
+      "file": "frames/04-extension-confirmed.png",
+      "role": "primary"
+    },
+    {
+      "order": 5,
+      "id": "leaving",
+      "title": "Driver marks the session complete and leaves",
+      "file": "frames/05-leaving.png",
+      "role": "primary"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 4,
+    "duration_in_range": true
+  }
+}

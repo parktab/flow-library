@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "operator.valet.paper-ticket",
+    "title": "Anonymous, phoneless valet",
+    "description": "Issue a printable paper and QR claim ticket without collecting a phone number.",
+    "perspective": "operator",
+    "platform": "web-desktop",
+    "tags": [
+      "valet",
+      "paper-ticket",
+      "privacy",
+      "first-batch"
+    ],
+    "audience": [
+      "hotel",
+      "valet-operator",
+      "privacy-reviewer"
+    ],
+    "sales_claims": [
+      "Serve guests without a phone",
+      "Issue a printable QR claim ticket"
+    ],
+    "fixture_profile": "guest-self-park-controlled-payment",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-93ece9f3",
+  "capture_date": "2026-08-15T23:05:28.501Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "id": "valet-board",
+      "title": "Valet board before arrival",
+      "file": "frames/01-valet-board.png",
+      "role": "primary"
+    },
+    {
+      "order": 2,
+      "id": "paper-mode",
+      "title": "Choose paper or QR ticket",
+      "file": "frames/02-paper-mode.png",
+      "role": "primary"
+    },
+    {
+      "order": 3,
+      "id": "ticket-details",
+      "title": "Record anonymous guest and vehicle details",
+      "file": "frames/03-ticket-details.png",
+      "role": "primary"
+    },
+    {
+      "order": 4,
+      "id": "ticket-ready",
+      "title": "Printable claim ticket is ready",
+      "file": "frames/04-ticket-ready.png",
+      "role": "primary"
+    },
+    {
+      "order": 5,
+      "id": "printed-ticket",
+      "title": "Print-ready ticket with claim QR",
+      "file": "frames/05-printed-ticket.png",
+      "role": "printed-ticket"
+    },
+    {
+      "order": 6,
+      "id": "claim-link",
+      "title": "Guest opens the anonymous claim QR",
+      "file": "frames/06-claim-link.png",
+      "role": "guest"
+    }
+  ],
+  "videos": [],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 5,
+    "duration_in_range": true
+  }
+}
