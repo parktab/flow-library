@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "flow": {
+    "id": "valet.paired.request-to-handoff",
+    "title": "Two-sided valet request and handoff",
+    "description": "Show the guest and operator together as a pickup request moves through alert, acknowledgement, retrieval, ready for pickup, handoff, and final exit.",
+    "perspective": "paired",
+    "platform": "ios",
+    "tags": [
+      "valet",
+      "realtime",
+      "guest",
+      "operator",
+      "paired"
+    ],
+    "audience": [
+      "hotel",
+      "valet-operator",
+      "property-manager",
+      "product-team"
+    ],
+    "sales_claims": [
+      "Coordinate guest and valet status in realtime",
+      "Keep both sides informed through final handoff"
+    ],
+    "fixture_profile": "hotel-valet-native-paired",
+    "profile": "default",
+    "allow_mocks": true,
+    "requirements": []
+  },
+  "app_build": "source-c51a69f8",
+  "capture_date": "2026-08-18T15:08:25.982Z",
+  "locale": "en-US",
+  "frames": [
+    {
+      "order": 1,
+      "title": "consumer request received",
+      "file": "phases/01-consumer-request/Guest requests valet vehicle/takeScreenshot/01-consumer-request-received.png",
+      "role": "consumer"
+    },
+    {
+      "order": 2,
+      "title": "operator pickup alert",
+      "file": "phases/02-operator-alert-and-acknowledge/Operator receives and acknowledges pickup request/takeScreenshot/01-operator-pickup-alert.png",
+      "role": "operator"
+    },
+    {
+      "order": 3,
+      "title": "consumer request acknowledged",
+      "file": "phases/03-consumer-acknowledged/Guest sees that the valet received the request/takeScreenshot/01-consumer-request-acknowledged.png",
+      "role": "consumer"
+    },
+    {
+      "order": 4,
+      "title": "operator retrieving",
+      "file": "phases/04-operator-retrieving/Operator starts retrieving vehicle/takeScreenshot/01-operator-retrieving.png",
+      "role": "operator"
+    },
+    {
+      "order": 5,
+      "title": "operator ready for pickup",
+      "file": "phases/06-operator-ready/Operator marks vehicle ready for pickup/takeScreenshot/01-operator-ready-for-pickup.png",
+      "role": "operator"
+    },
+    {
+      "order": 6,
+      "title": "consumer ready for pickup",
+      "file": "phases/07-consumer-ready/Guest sees that the vehicle is ready for pickup/takeScreenshot/01-consumer-ready-for-pickup.png",
+      "role": "consumer"
+    },
+    {
+      "order": 7,
+      "title": "operator handoff disposition",
+      "file": "phases/08-operator-handoff/Operator completes final vehicle handoff/takeScreenshot/01-operator-handoff-disposition.png",
+      "role": "operator"
+    },
+    {
+      "order": 8,
+      "title": "consumer handoff complete",
+      "file": "phases/09-consumer-complete/Guest sees that vehicle handoff is complete through polling/takeScreenshot/01-consumer-handoff-complete.png",
+      "role": "consumer"
+    }
+  ],
+  "videos": [
+    {
+      "role": "operator",
+      "file": "operator.mp4",
+      "offset_seconds": 0
+    },
+    {
+      "role": "consumer",
+      "file": "consumer.mp4",
+      "offset_seconds": 0
+    },
+    {
+      "role": "composed",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
+  "quality": {
+    "frame_count_in_range": true,
+    "duration_seconds": 60,
+    "duration_in_range": true
+  }
+}

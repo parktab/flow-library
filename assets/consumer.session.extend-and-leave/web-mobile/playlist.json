@@ -19,13 +19,13 @@
       "Extend a stay remotely",
       "Keep parkers informed before expiry"
     ],
-    "fixture_profile": "active-session-controlled-clock",
+    "fixture_profile": "guest-self-park-controlled-payment",
     "profile": "default",
     "allow_mocks": true,
     "requirements": []
   },
-  "app_build": "source-93ece9f3",
-  "capture_date": "2026-08-15T23:09:48.661Z",
+  "app_build": "source-4b23dfa8",
+  "capture_date": "2026-08-18T14:17:16.627Z",
   "locale": "en-US",
   "frames": [
     {
@@ -64,10 +64,16 @@
       "role": "primary"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
   "quality": {
     "frame_count_in_range": true,
-    "duration_seconds": 4,
-    "duration_in_range": true
+    "duration_seconds": 22,
+    "duration_in_range": false
   }
 }

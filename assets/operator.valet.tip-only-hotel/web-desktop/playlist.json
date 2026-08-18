@@ -20,13 +20,13 @@
       "Separate hotel parking charges from guest tips",
       "Send a digital tip path after retrieval"
     ],
-    "fixture_profile": "hotel-valet-tip-only",
+    "fixture_profile": "guest-self-park-controlled-payment",
     "profile": "default",
     "allow_mocks": true,
     "requirements": []
   },
-  "app_build": "source-24f7b3c4",
-  "capture_date": "2026-08-15T19:45:34.066Z",
+  "app_build": "source-4b23dfa8",
+  "capture_date": "2026-08-18T14:17:16.627Z",
   "locale": "en-US",
   "frames": [
     {
@@ -81,10 +81,26 @@
       "role": "guest"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "primary.mp4",
+      "offset_seconds": 0
+    },
+    {
+      "role": "guest",
+      "file": "guest.mp4",
+      "offset_seconds": 9.3
+    },
+    {
+      "role": "composed",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
   "quality": {
     "frame_count_in_range": true,
-    "duration_seconds": 37,
+    "duration_seconds": 60,
     "duration_in_range": true
   }
 }

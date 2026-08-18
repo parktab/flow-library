@@ -26,8 +26,8 @@
     "allow_mocks": true,
     "requirements": []
   },
-  "app_build": "source-93ece9f3",
-  "capture_date": "2026-08-15T23:05:28.501Z",
+  "app_build": "source-4b23dfa8",
+  "capture_date": "2026-08-18T14:17:16.627Z",
   "locale": "en-US",
   "frames": [
     {
@@ -82,10 +82,26 @@
       "role": "primary"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "role": "primary",
+      "file": "primary.mp4",
+      "offset_seconds": 0
+    },
+    {
+      "role": "guest",
+      "file": "guest.mp4",
+      "offset_seconds": 9.5
+    },
+    {
+      "role": "composed",
+      "file": "flow.mp4",
+      "offset_seconds": 0
+    }
+  ],
   "quality": {
     "frame_count_in_range": true,
-    "duration_seconds": 36,
+    "duration_seconds": 58,
     "duration_in_range": true
   }
 }
