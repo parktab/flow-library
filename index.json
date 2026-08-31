@@ -29,8 +29,8 @@
         "allow_mocks": true,
         "requirements": []
       },
-      "app_build": "source-c9df7d3c",
-      "capture_date": "2026-08-31T17:29:16.224Z",
+      "app_build": "source-33ac6283",
+      "capture_date": "2026-08-31T18:01:05.745Z",
       "locale": "en-US",
       "frames": [
         {
@@ -85,8 +85,8 @@
       ],
       "quality": {
         "frame_count_in_range": true,
-        "duration_seconds": 27,
-        "duration_in_range": false
+        "duration_seconds": 30,
+        "duration_in_range": true
       }
     }
   },
@@ -121,8 +121,8 @@
         "allow_mocks": true,
         "requirements": []
       },
-      "app_build": "source-c9df7d3c",
-      "capture_date": "2026-08-31T17:29:16.224Z",
+      "app_build": "source-33ac6283",
+      "capture_date": "2026-08-31T18:01:05.745Z",
       "locale": "en-US",
       "frames": [
         {
@@ -218,8 +218,8 @@
         "allow_mocks": true,
         "requirements": []
       },
-      "app_build": "source-c9df7d3c",
-      "capture_date": "2026-08-31T17:29:16.224Z",
+      "app_build": "source-33ac6283",
+      "capture_date": "2026-08-31T18:01:05.745Z",
       "locale": "en-US",
       "frames": [
         {
@@ -267,7 +267,7 @@
       ],
       "quality": {
         "frame_count_in_range": true,
-        "duration_seconds": 23,
+        "duration_seconds": 26,
         "duration_in_range": false
       }
     }
@@ -303,8 +303,8 @@
         "allow_mocks": true,
         "requirements": []
       },
-      "app_build": "source-c9df7d3c",
-      "capture_date": "2026-08-31T17:29:16.224Z",
+      "app_build": "source-33ac6283",
+      "capture_date": "2026-08-31T18:01:05.745Z",
       "locale": "en-US",
       "frames": [
         {
@@ -359,7 +359,7 @@
       ],
       "quality": {
         "frame_count_in_range": true,
-        "duration_seconds": 26,
+        "duration_seconds": 29,
         "duration_in_range": false
       }
     }
@@ -534,8 +534,8 @@
         "allow_mocks": true,
         "requirements": []
       },
-      "app_build": "source-c9df7d3c",
-      "capture_date": "2026-08-31T17:29:16.224Z",
+      "app_build": "source-33ac6283",
+      "capture_date": "2026-08-31T18:01:05.745Z",
       "locale": "en-US",
       "frames": [
         {
@@ -848,8 +848,8 @@
         "allow_mocks": true,
         "requirements": []
       },
-      "app_build": "source-c9df7d3c",
-      "capture_date": "2026-08-31T17:29:16.224Z",
+      "app_build": "source-33ac6283",
+      "capture_date": "2026-08-31T18:01:05.745Z",
       "locale": "en-US",
       "frames": [
         {
@@ -904,12 +904,12 @@
         {
           "role": "guest",
           "file": "guest.mp4",
-          "offset_seconds": 17.6
+          "offset_seconds": 18
         },
         {
           "role": "printed-ticket",
           "file": "printed-ticket.mp4",
-          "offset_seconds": 18.3
+          "offset_seconds": 19.6
         },
         {
           "role": "composed",
@@ -919,7 +919,7 @@
       ],
       "quality": {
         "frame_count_in_range": true,
-        "duration_seconds": 33,
+        "duration_seconds": 36,
         "duration_in_range": true
       }
     }
@@ -1065,8 +1065,8 @@
         "allow_mocks": true,
         "requirements": []
       },
-      "app_build": "source-c9df7d3c",
-      "capture_date": "2026-08-31T17:29:16.224Z",
+      "app_build": "source-33ac6283",
+      "capture_date": "2026-08-31T18:01:05.745Z",
       "locale": "en-US",
       "frames": [
         {
@@ -1130,7 +1130,7 @@
         {
           "role": "guest",
           "file": "guest.mp4",
-          "offset_seconds": 10
+          "offset_seconds": 11.2
         },
         {
           "role": "composed",
